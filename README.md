@@ -8,8 +8,7 @@ A collection of lightweight SwiftUI loading animations.
 
 :toolbox: Customize speed & size
 
-![Imgur](https://imgur.com/ujLtQ5x.gif) ![Imgur](https://imgur.com/sDC2Xl5.gif)
-
+![Imgur](https://imgur.com/t1jjDHE.gif) ![Imgur](https://imgur.com/11BVcV2.gif) ![Imgur](https://imgur.com/BjPd3bC.gif)
 
 ## Installation
 
