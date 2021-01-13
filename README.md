@@ -1,12 +1,16 @@
 # SwiftfulLoadingIndicators
 
-A collection of lightweight SwiftUI loading animations.
+A collection of lightweight loading animations that can be applied to any SwiftUI view with 1 line of code. All animations are built using the SwiftUI framework (and in a few cases, the Combine framework).
 
-:thumbsup: 20+ animations!
+:thumbsup: **20+ animations!**
 
-:art: Works with any Color
+:art: **Works with any Color**
 
-:toolbox: Customize speed & size
+:toolbox: **Customize speed & size**
+
+:white_check_mark: **No keyframe animations or DispatchQueue calls** that could negatively affect the UI
+
+:white_check_mark: **Source files have no depencendies** and can be extracted without issue
 
 ![Imgur](https://i.imgur.com/729d9U0.gif) ![Imgur](https://imgur.com/11BVcV2.gif) ![Imgur](https://imgur.com/BjPd3bC.gif)
 
