@@ -31,7 +31,7 @@ Then add a LoadingIndicator to your SwiftUI view.
 LoadingIndicator()
 ```
 
-The indicators are customizeable in terms of animation, color, size, and speed. All parameters are optional and will init with default values if not included. Example implementations:
+The indicators are customizable in terms of animation, color, size, and speed. All parameters are optional and will init with default values if not included. Example implementations:
 
 ```swift
 // DEFAULT PARAMETERS:
