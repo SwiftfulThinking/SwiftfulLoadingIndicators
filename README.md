@@ -13,8 +13,6 @@ The Swift Package Manager is a tool for managing the distribution of Swift code.
 
 ## Usage
 
-**LoadingIndicator**
-
 Firstly, import the package to your file.
 ```swift
 import SwiftfulLoadingIndicators
@@ -49,15 +47,11 @@ if isLoading {
 }
 ```
 
-**LoadingShowcaseView**
-
 To quickly see all animation options, simply add a LoadingShowcaseView.
 
 ```swift
 LoadingShowcaseView()
 ```
-
-**LoadingPreviewView**
 
 To quickly see all size and speed options for a single animation, simply add a LoadingPreviewView.
 ```swift
