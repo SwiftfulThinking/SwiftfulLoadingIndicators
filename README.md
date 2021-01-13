@@ -1,6 +1,15 @@
 # SwiftfulLoadingIndicators
 
-A collection of lightweight SwiftUI loading indicators.
+A collection of lightweight SwiftUI loading animations.
+
+:thumbsup: 20+ animations!
+
+:art: Works with any Color
+
+:toolbox: Customize speed & size
+
+![Imgur](https://imgur.com/ujLtQ5x.gif) ![Imgur](https://imgur.com/sDC2Xl5.gif)
+
 
 ## Installation
 
@@ -40,6 +49,7 @@ LoadingIndicator(color: .red)
 LoadingIndicator(size: .large)
 LoadingIndicator(speed: .slow)
 ```
+
 The indicators will animate as soon as they appear on the screen, similar to the native ProgressView(). Recommended approach is to add the indicator to the View only when it is required:
 ```swift
 if isLoading {
@@ -71,3 +81,4 @@ The animations are meant to be highly customizable and each animation file does 
 * .iOS(.v13)
 * .tvOS(.v14)
 * .watchOS(.v7)
+
