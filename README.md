@@ -69,5 +69,5 @@ The animations are meant to be highly customizable and each animation file does 
 
 * .macOS(.v11)
 * .iOS(.v13)
-* .tvOS(.v13)
-* .watchOS(.v6)
+* .tvOS(.v14)
+* .watchOS(.v7)

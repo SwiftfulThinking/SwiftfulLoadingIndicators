@@ -22,13 +22,20 @@ struct LoadingBar: View {
 
     var body: some View {
         ZStack(alignment: .leading) {
-            #if iOS
-            RoundedRectangle(cornerRadius: 25.0)
-                .fill(Color(UIColor.secondarySystemBackground))
+
+            #if canImport(UIKit)
+                #if os(tvOS) || os(watchOS)
+                RoundedRectangle(cornerRadius: 25.0)
+                    .fill(Color(UIColor.gray))
+                #else
+                RoundedRectangle(cornerRadius: 25.0)
+                    .fill(Color(UIColor.secondarySystemBackground))
+                #endif
             #else
-            RoundedRectangle(cornerRadius: 25.0)
-                .fill(Color.gray)
+                RoundedRectangle(cornerRadius: 25.0)
+                    .fill(Color.gray)
             #endif
+            
             
             RoundedRectangle(cornerRadius: 25.0)
                 .fill(primaryColor)
