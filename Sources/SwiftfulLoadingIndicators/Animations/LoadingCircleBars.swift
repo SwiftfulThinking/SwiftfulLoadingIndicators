@@ -1,6 +1,6 @@
 //
 //  LoadingCircleBars.swift
-//  SwiftUICookbook (iOS)
+//  SwiftfulLoadingIndicators
 //
 //  Created by Nick Sarno on 1/13/21.
 //

@@ -1,6 +1,6 @@
 //
 //  LoadingShowcaseView.swift
-//  SwiftUICookbook (iOS)
+//  SwiftfulLoadingIndicators
 //
 //  Created by Nick Sarno on 1/12/21.
 //
@@ -8,6 +8,9 @@
 import SwiftUI
 
 public struct LoadingShowcaseView: View {
+    
+    public init() { }
+    
     public var body: some View {
         #if iOS
         ScrollView {

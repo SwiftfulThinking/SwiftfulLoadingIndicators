@@ -1,6 +1,6 @@
 //
 //  LoadingFiveLines.swift
-//  SwiftUICookbook (iOS)
+//  SwiftfulLoadingIndicators
 //
 //  Created by Nick Sarno on 1/12/21.
 //

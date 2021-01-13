@@ -1,6 +1,6 @@
 //
 //  LoadingPreviewView.swift
-//  SwiftUICookbook (iOS)
+//  SwiftfulLoadingIndicators
 //
 //  Created by Nick Sarno on 1/11/21.
 //
@@ -13,6 +13,10 @@ public struct LoadingPreviewView: View {
     let animation: LoadingIndicator.LoadingAnimation
     let sizes = LoadingIndicator.Size.allCases
     let speeds = LoadingIndicator.Speed.allCases
+    
+    public init(animation: LoadingIndicator.LoadingAnimation) {
+        self.animation = animation
+    }
     
     public var body: some View {
         ScrollView {
