@@ -16,6 +16,7 @@ public struct LoadingPreviewView: View {
     
     public init(animation: LoadingIndicator.LoadingAnimation) {
         self.animation = animation
+        
     }
     
     public var body: some View {
