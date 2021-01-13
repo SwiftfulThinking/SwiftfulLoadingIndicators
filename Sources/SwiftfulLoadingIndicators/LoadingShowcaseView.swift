@@ -9,9 +9,7 @@ import SwiftUI
 
 public struct LoadingShowcaseView: View {
     
-    public init() {
-        
-    }
+    public init() { }
     
     public var body: some View {
         #if iOS
