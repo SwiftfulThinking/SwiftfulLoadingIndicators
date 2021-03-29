@@ -23,7 +23,7 @@ A collection of lightweight loading animations that can be applied to any SwiftU
 The Swift Package Manager is a tool for managing the distribution of Swift code. To use SwiftfulLoadingIndicators with Swift Package Manager in an Xcode project:
 
 * File -> Swift Packages -> Add Package Dependency ->
-* Add URL for this repository: https://github.com/ndsarno/SwiftfulLoadingIndicators.git
+* Add URL for this repository: https://github.com/SwiftfulThinking/SwiftfulLoadingIndicators.git
 
 ## Usage
 
